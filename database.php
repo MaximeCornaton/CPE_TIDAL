@@ -16,12 +16,14 @@ class database {
 
     function query($query) {
         // Execute query
+        /* $query = "SELECT * FROM table" */
         $result = pg_query($this->connection, $query);
         return $result;
     }
 
     function fetch($result) {
         // Fetch result
+        /* $result = query($query) */
         $row = pg_fetch_assoc($result);
         return $row;
     }
@@ -33,6 +35,7 @@ class database {
 
     function drop_table($table) {
         // Drop table
+        /* $table = "table" */
         $query = "DROP TABLE IF EXISTS $table";
         $result = query($query);
         return $result;
