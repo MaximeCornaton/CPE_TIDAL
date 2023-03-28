@@ -1,0 +1,18 @@
+/* Variables du Projet*/
+
+/* Comment utiliser une variable CSS? */
+/* Pour utiliser une variable CSS, utilisez la fonction var(). */
+
+/* Exemple: */
+/* 
+body{
+    background-color: var(--main-color);
+} 
+*/
+
+:root{
+    --main-color: #f00;
+    --main-color-hover: #0f0;
+    --main-color-active: #00f;
+}
+
