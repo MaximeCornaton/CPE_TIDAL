@@ -1,9 +1,9 @@
 <?php 
 
-$host = ""
-$username = ""
-$password = ""
-$database = ""
+$host = "";
+$username = "";
+$password = "";
+$database = "";
 
 class database {
     public $connection;
