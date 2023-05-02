@@ -1,0 +1,40 @@
+.patho,.rows{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1%;
+}
+
+h2{
+    font-weight: bold;
+    font-size: medium;
+}
+
+.mer{
+    margin-top: 1vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f7f1e9;
+    padding: 3vh;
+    border-color: black;
+    border-radius: 10px;
+    border: 1.5px solid;
+}
+
+.results{
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.results{
+    height: 50vh;
+}

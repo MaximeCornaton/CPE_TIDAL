@@ -1,0 +1,200 @@
+/* Variables du Projet*/
+
+/* Comment utiliser une variable CSS? */
+/* Pour utiliser une variable CSS, utilisez la fonction var(). */
+
+/* Exemple: */
+/* 
+body{
+    background-color: var(--main-color);
+} 
+*/
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+:root {
+  --main-color: #f00;
+  --main-color-hover: #0f0;
+  --main-color-active: #00f;
+  --main-color-focus: #ff0;
+  --main-color-disabled: #f0f;
+  --main-color-visited: #0ff;
+  --main-color-link: #fff;
+  --main-color-text: #000;
+  --main-color-text-hover: #000;
+  --main-color-text-active: #000;
+  --main-color-text-focus: #000;
+  --main-color-text-disabled: #000;
+  --main-color-text-visited: #000;
+  --main-color-text-link: #000;
+  --main-color-text-light: #fff;
+  --main-color-text-light-hover: #fff;
+  --main-color-text-light-active: #fff;
+  --main-color-text-light-focus: #fff;
+  --main-color-text-light-disabled: #fff;
+  --main-color-text-light-visited: #fff;
+  --main-color-text-light-link: #fff;
+  --main-color-text-dark: #000;
+  --main-color-text-dark-hover: #000;
+  --main-color-text-dark-active: #000;
+  --main-color-text-dark-focus: #000;
+  --main-color-text-dark-disabled: #000;
+  --main-color-text-dark-visited: #000;
+  --main-color-text-dark-link: #000;
+  --main-color-text-lighter: #eee;
+  --background-color: #f7f1e9;
+}
+a {
+  text-decoration: none;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  scroll-behavior: smooth;
+
+  font-family: "Manrope", sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+/* ol,
+ul {
+  list-style: none;
+} */
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.page-title {
+  color: var(--main-color-text-dark);
+  font-size: 1.8vh;
+  padding: 1vh 0 1vh 10vw;
+  background-color: var(--background-color);
+  font-family: "Manrope", sans-serif;
+  width: 90vw;
+  text-transform: uppercase;
+}
+
+.page-title:before {
+  content: "> ";
+}
+
+section {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+input:disabled {
+  cursor: not-allowed;
+}
+
+input:disabled::placeholder {
+  color: red;
+}

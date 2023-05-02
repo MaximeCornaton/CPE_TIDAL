@@ -1,0 +1,29 @@
+footer{
+    width: 100%;
+    padding-top: 2vh;
+    margin-bottom: 3vh;
+}
+
+h3{
+    font-weight: bolder;
+    padding-bottom: 1vh;
+}
+
+a{
+    color: var(--main-color-text);
+    text-decoration: none;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 15px;
+}
+
+.findus, .contact, .copyright{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}

@@ -1,0 +1,67 @@
+<!-- ##################################################################################################################
+Source : Le carousel de cette easter egg provient du repository https://github.com/codingstime/image-slider-or-carousel
+####################################################################################################################### -->
+ 
+ <!DOCTYPE html>
+ <html lang="en">
+ 
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EASTER EGG</title>
+ 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link rel="stylesheet" href="./ee.css">
+ </head>
+ 
+ <body>
+   <audio id="audio" src="./ouais-cest-greg.mp3"></audio>
+
+<script>
+  var audio = document.getElementById('audio');
+  audio.play();
+</script>
+   <button onclick="window.location.href = '../index.php';">Retour à la page d'accueil</button>
+
+    <div class="carousel">
+       <div class="carousel_inner">
+          <div class="carousel_item carousel_item__active">
+             <img src="./IMG_6047.jpg" alt="" class="carousel_img" style="width:550px">
+          </div>
+          <div class="carousel_item">
+             <img src="./IMG_6048.jpg" alt="" class="carousel_img" style="width:550px">
+          </div>
+          <div class="carousel_item">
+             <img src="./IMG_6050.jpg" alt="" class="carousel_img" style="width:550px">
+          </div>
+          <div class="carousel_item">
+            <img src="./IMG_6052.jpg" alt="" class="carousel_img" style="width:550px">
+         </div>
+         <div class="carousel_item">
+            <img src="./IMG_6053.jpg" alt="" class="carousel_img" style="width:550px">
+         </div>
+       </div>
+ 
+       <div class="carousel_indicator">
+          <button class="carousel_dot carousel_dot__active"></button>
+          <button class="carousel_dot"></button>
+          <button class="carousel_dot"></button>
+          <button class="carousel_dot"></button>
+          <button class="carousel_dot"></button>
+       </div>
+ 
+       <div class="carousel_control">
+          <button class="carousel_button carousel_button__prev">
+             <i class="fas fa-chevron-left"></i>
+          </button>
+          <button class="carousel_button carousel_button__next">
+             <i class="fas fa-chevron-right"></i>
+          </button>
+       </div>
+    </div>
+ 
+    <script src="./ee.js"></script>
+ </body>
+ 
+ </html>

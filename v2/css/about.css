@@ -1,0 +1,14 @@
+.about-all{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.fonction,.info{
+    border: 1.5px solid;
+    height: 100%;
+    border-radius: 10px;
+    width: 50%;
+    padding: 0 5%;
+    margin: 2%;
+}
